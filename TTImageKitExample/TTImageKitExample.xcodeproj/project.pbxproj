@@ -77,7 +77,7 @@
 		EC9783571A4940AF000848C5 /* TTQCARSession.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = TTQCARSession.mm; path = ../TTImageKit/TTQCARSession.mm; sourceTree = "<group>"; };
 		EC9783591A49529C000848C5 /* TTQCARCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTQCARCameraViewController.h; path = ../TTImageKit/TTQCARCameraViewController.h; sourceTree = "<group>"; };
 		EC97835A1A49529C000848C5 /* TTQCARCameraViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = TTQCARCameraViewController.mm; path = ../TTImageKit/TTQCARCameraViewController.mm; sourceTree = "<group>"; };
-		EC97835C1A49670B000848C5 /* libVuforia.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libVuforia.a; path = "../../../../../Develop/vuforia-sdk-ios-3-0-9/build/lib/arm/libVuforia.a"; sourceTree = "<group>"; };
+		EC97835C1A49670B000848C5 /* libVuforia.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libVuforia.a; path = ../QCAR/lib/arm/libVuforia.a; sourceTree = "<group>"; };
 		EC97835E1A496840000848C5 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		EC9783601A496849000848C5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		EC9783621A49686D000848C5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -461,16 +461,16 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"$(QCANLIB)/include/",
+					"$(QCARLIB)/include/",
 				);
 				INFOPLIST_FILE = "TTImageKitExample/TTImageKitExample-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/liang/Develop/vuforia-sdk-ios-3-0-9/build/lib/arm",
+					"${QCARLIB}/lib/arm",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				QCANLIB = "/Users/liang/Develop/vuforia-sdk-ios-3-0-9/build";
+				QCARLIB = ../QCAR;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALID_ARCHS = "armv7 armv7s arm64";
 				WRAPPER_EXTENSION = app;
@@ -491,16 +491,16 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"$(QCANLIB)/include/",
+					"$(QCARLIB)/include/",
 				);
 				INFOPLIST_FILE = "TTImageKitExample/TTImageKitExample-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
-					"/Users/liang/Develop/vuforia-sdk-ios-3-0-9/build/lib/arm",
+					"${QCARLIB}/lib/arm",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				QCANLIB = "/Users/liang/Develop/vuforia-sdk-ios-3-0-9/build";
+				QCARLIB = ../QCAR;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALID_ARCHS = "armv7 armv7s arm64";
 				WRAPPER_EXTENSION = app;
