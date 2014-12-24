@@ -1,0 +1,19 @@
+/*===============================================================================
+ Copyright (c) 2012-2014 Qualcomm Connected Experiences, Inc. All Rights Reserved.
+ 
+ Vuforia is a trademark of QUALCOMM Incorporated, registered in the United States
+ and other countries. Trademarks of QUALCOMM Incorporated are used with permission.
+ ===============================================================================*/
+
+#import <UIKit/UIKit.h>
+#import <QCAR/DataSet.h>
+#import "TTQCARCameraEAGLView.h"
+#import "TTQCARSession.h"
+
+typedef BOOL(^TrackerUpdate)(NSString *targetName);
+
+@interface TTQCARCameraViewController : UIViewController<TTQCARControl>
+
+- (instancetype)initWithTrackersDataFilename:(NSString *)dataFilename trackerUpdate:(TrackerUpdate)trackerUpdate;
+
+@end

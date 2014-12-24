@@ -9,6 +9,7 @@
 #import <ImageIO/ImageIO.h>
 #import "ViewController.h"
 #import "TTImageView.h"
+#import "TTQCARCameraViewController.h"
 
 @interface ViewController ()
 
@@ -28,12 +29,22 @@
     [imageView setImageURL:imageURL];
     imageView.frame = CGRectMake(0, 0, imageView.size.width, imageView.size.height);
     [self.view addSubview:imageView];
+    
+    UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake(0, 100, 100, 40)];
+    [button setBackgroundColor:[UIColor redColor]];
+    [button addTarget:self action:@selector(press:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:button];
 }
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)press:(id)sender {
+    TTQCARCameraViewController *viewController = [[TTQCARCameraViewController alloc] initWithTrackersDataFilename:nil trackerUpdate:nil];
+    [self.navigationController pushViewController:viewController animated:YES];
 }
 
 @end

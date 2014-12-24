@@ -13,7 +13,7 @@
 		EC3A0C1A18A7682300F321E8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC3A0C1818A7682300F321E8 /* InfoPlist.strings */; };
 		EC3A0C1C18A7682300F321E8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3A0C1B18A7682300F321E8 /* main.m */; };
 		EC3A0C2018A7682300F321E8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3A0C1F18A7682300F321E8 /* AppDelegate.m */; };
-		EC3A0C2918A7682300F321E8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3A0C2818A7682300F321E8 /* ViewController.m */; };
+		EC3A0C2918A7682300F321E8 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = EC3A0C2818A7682300F321E8 /* ViewController.mm */; };
 		EC3A0C2B18A7682400F321E8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC3A0C2A18A7682400F321E8 /* Images.xcassets */; };
 		EC3A0C3218A7682400F321E8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC3A0C3118A7682400F321E8 /* XCTest.framework */; };
 		EC3A0C3318A7682400F321E8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC3A0C0F18A7682300F321E8 /* Foundation.framework */; };
@@ -24,6 +24,17 @@
 		EC3A0C4E18A78B5000F321E8 /* test.gif in Resources */ = {isa = PBXBuildFile; fileRef = EC3A0C4D18A78B5000F321E8 /* test.gif */; };
 		EC3A0C5018A78BC900F321E8 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC3A0C4F18A78BC900F321E8 /* ImageIO.framework */; };
 		EC3A0C5218A7AE7500F321E8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC3A0C5118A7AE7500F321E8 /* QuartzCore.framework */; };
+		EC9783381A491CF3000848C5 /* TTQCARCameraEAGLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = EC9783371A491CF3000848C5 /* TTQCARCameraEAGLView.mm */; };
+		EC9783581A4940AF000848C5 /* TTQCARSession.mm in Sources */ = {isa = PBXBuildFile; fileRef = EC9783571A4940AF000848C5 /* TTQCARSession.mm */; };
+		EC97835B1A49529C000848C5 /* TTQCARCameraViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = EC97835A1A49529C000848C5 /* TTQCARCameraViewController.mm */; };
+		EC97835D1A49670B000848C5 /* libVuforia.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC97835C1A49670B000848C5 /* libVuforia.a */; };
+		EC97835F1A496840000848C5 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC97835E1A496840000848C5 /* CoreMotion.framework */; };
+		EC9783611A496849000848C5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC9783601A496849000848C5 /* AVFoundation.framework */; };
+		EC97836A1A4968B3000848C5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC9783621A49686D000848C5 /* SystemConfiguration.framework */; };
+		EC97836E1A4968EE000848C5 /* libstdc++.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EC97836D1A4968EE000848C5 /* libstdc++.6.dylib */; };
+		EC9783701A49690F000848C5 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC97836F1A49690F000848C5 /* CoreMedia.framework */; };
+		EC9783771A498937000848C5 /* TrackersData.dat in Resources */ = {isa = PBXBuildFile; fileRef = EC9783751A498937000848C5 /* TrackersData.dat */; };
+		EC9783781A498937000848C5 /* TrackersData.xml in Resources */ = {isa = PBXBuildFile; fileRef = EC9783761A498937000848C5 /* TrackersData.xml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +59,7 @@
 		EC3A0C1E18A7682300F321E8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		EC3A0C1F18A7682300F321E8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		EC3A0C2718A7682300F321E8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		EC3A0C2818A7682300F321E8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EC3A0C2818A7682300F321E8 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
 		EC3A0C2A18A7682400F321E8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		EC3A0C3018A7682400F321E8 /* TTImageKitExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTImageKitExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC3A0C3118A7682400F321E8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -60,6 +71,20 @@
 		EC3A0C4D18A78B5000F321E8 /* test.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = test.gif; sourceTree = "<group>"; };
 		EC3A0C4F18A78BC900F321E8 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		EC3A0C5118A7AE7500F321E8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EC9783361A491CF3000848C5 /* TTQCARCameraEAGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTQCARCameraEAGLView.h; path = ../TTImageKit/TTQCARCameraEAGLView.h; sourceTree = "<group>"; };
+		EC9783371A491CF3000848C5 /* TTQCARCameraEAGLView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = TTQCARCameraEAGLView.mm; path = ../TTImageKit/TTQCARCameraEAGLView.mm; sourceTree = "<group>"; };
+		EC9783561A4940AF000848C5 /* TTQCARSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTQCARSession.h; path = ../TTImageKit/TTQCARSession.h; sourceTree = "<group>"; };
+		EC9783571A4940AF000848C5 /* TTQCARSession.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = TTQCARSession.mm; path = ../TTImageKit/TTQCARSession.mm; sourceTree = "<group>"; };
+		EC9783591A49529C000848C5 /* TTQCARCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTQCARCameraViewController.h; path = ../TTImageKit/TTQCARCameraViewController.h; sourceTree = "<group>"; };
+		EC97835A1A49529C000848C5 /* TTQCARCameraViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = TTQCARCameraViewController.mm; path = ../TTImageKit/TTQCARCameraViewController.mm; sourceTree = "<group>"; };
+		EC97835C1A49670B000848C5 /* libVuforia.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libVuforia.a; path = "../../../../../Develop/vuforia-sdk-ios-3-0-9/build/lib/arm/libVuforia.a"; sourceTree = "<group>"; };
+		EC97835E1A496840000848C5 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		EC9783601A496849000848C5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		EC9783621A49686D000848C5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		EC97836D1A4968EE000848C5 /* libstdc++.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.dylib"; path = "usr/lib/libstdc++.6.dylib"; sourceTree = SDKROOT; };
+		EC97836F1A49690F000848C5 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		EC9783751A498937000848C5 /* TrackersData.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = TrackersData.dat; sourceTree = "<group>"; };
+		EC9783761A498937000848C5 /* TrackersData.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = TrackersData.xml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +92,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC9783701A49690F000848C5 /* CoreMedia.framework in Frameworks */,
+				EC97836E1A4968EE000848C5 /* libstdc++.6.dylib in Frameworks */,
+				EC97836A1A4968B3000848C5 /* SystemConfiguration.framework in Frameworks */,
+				EC9783611A496849000848C5 /* AVFoundation.framework in Frameworks */,
+				EC97835F1A496840000848C5 /* CoreMotion.framework in Frameworks */,
+				EC97835D1A49670B000848C5 /* libVuforia.a in Frameworks */,
 				EC3A0C5218A7AE7500F321E8 /* QuartzCore.framework in Frameworks */,
 				EC3A0C5018A78BC900F321E8 /* ImageIO.framework in Frameworks */,
 				EC3A0C1218A7682300F321E8 /* CoreGraphics.framework in Frameworks */,
@@ -91,7 +122,7 @@
 		EC3A0C0318A7682300F321E8 = {
 			isa = PBXGroup;
 			children = (
-				EC3A0C4718A7688300F321E8 /* Vendor */,
+				EC3A0C4818A769BE00F321E8 /* TTImageKit */,
 				EC3A0C1518A7682300F321E8 /* TTImageKitExample */,
 				EC3A0C3718A7682400F321E8 /* TTImageKitExampleTests */,
 				EC3A0C0E18A7682300F321E8 /* Frameworks */,
@@ -111,6 +142,12 @@
 		EC3A0C0E18A7682300F321E8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EC97836F1A49690F000848C5 /* CoreMedia.framework */,
+				EC97836D1A4968EE000848C5 /* libstdc++.6.dylib */,
+				EC9783621A49686D000848C5 /* SystemConfiguration.framework */,
+				EC9783601A496849000848C5 /* AVFoundation.framework */,
+				EC97835E1A496840000848C5 /* CoreMotion.framework */,
+				EC97835C1A49670B000848C5 /* libVuforia.a */,
 				EC3A0C5118A7AE7500F321E8 /* QuartzCore.framework */,
 				EC3A0C4F18A78BC900F321E8 /* ImageIO.framework */,
 				EC3A0C0F18A7682300F321E8 /* Foundation.framework */,
@@ -128,7 +165,7 @@
 				EC3A0C1E18A7682300F321E8 /* AppDelegate.h */,
 				EC3A0C1F18A7682300F321E8 /* AppDelegate.m */,
 				EC3A0C2718A7682300F321E8 /* ViewController.h */,
-				EC3A0C2818A7682300F321E8 /* ViewController.m */,
+				EC3A0C2818A7682300F321E8 /* ViewController.mm */,
 				EC3A0C2A18A7682400F321E8 /* Images.xcassets */,
 				EC3A0C1618A7682300F321E8 /* Supporting Files */,
 			);
@@ -164,19 +201,17 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		EC3A0C4718A7688300F321E8 /* Vendor */ = {
-			isa = PBXGroup;
-			children = (
-				EC3A0C4818A769BE00F321E8 /* TTImageKit */,
-			);
-			name = Vendor;
-			sourceTree = "<group>";
-		};
 		EC3A0C4818A769BE00F321E8 /* TTImageKit */ = {
 			isa = PBXGroup;
 			children = (
 				EC3A0C4918A76D1E00F321E8 /* TTImageView.h */,
 				EC3A0C4A18A76D1E00F321E8 /* TTImageView.m */,
+				EC9783361A491CF3000848C5 /* TTQCARCameraEAGLView.h */,
+				EC9783371A491CF3000848C5 /* TTQCARCameraEAGLView.mm */,
+				EC9783561A4940AF000848C5 /* TTQCARSession.h */,
+				EC9783571A4940AF000848C5 /* TTQCARSession.mm */,
+				EC9783591A49529C000848C5 /* TTQCARCameraViewController.h */,
+				EC97835A1A49529C000848C5 /* TTQCARCameraViewController.mm */,
 			);
 			name = TTImageKit;
 			sourceTree = "<group>";
@@ -184,6 +219,8 @@
 		EC3A0C4C18A78B5000F321E8 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				EC9783751A498937000848C5 /* TrackersData.dat */,
+				EC9783761A498937000848C5 /* TrackersData.xml */,
 				EC3A0C4D18A78B5000F321E8 /* test.gif */,
 			);
 			path = Resources;
@@ -265,9 +302,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC9783771A498937000848C5 /* TrackersData.dat in Resources */,
 				EC3A0C2B18A7682400F321E8 /* Images.xcassets in Resources */,
 				EC3A0C4E18A78B5000F321E8 /* test.gif in Resources */,
 				EC3A0C1A18A7682300F321E8 /* InfoPlist.strings in Resources */,
+				EC9783781A498937000848C5 /* TrackersData.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,8 +325,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC3A0C2918A7682300F321E8 /* ViewController.m in Sources */,
+				EC3A0C2918A7682300F321E8 /* ViewController.mm in Sources */,
 				EC3A0C2018A7682300F321E8 /* AppDelegate.m in Sources */,
+				EC9783381A491CF3000848C5 /* TTQCARCameraEAGLView.mm in Sources */,
+				EC97835B1A49529C000848C5 /* TTQCARCameraViewController.mm in Sources */,
+				EC9783581A4940AF000848C5 /* TTQCARSession.mm in Sources */,
 				EC3A0C1C18A7682300F321E8 /* main.m in Sources */,
 				EC3A0C4B18A76D1E00F321E8 /* TTImageView.m in Sources */,
 			);
@@ -408,12 +450,29 @@
 		EC3A0C4218A7682400F321E8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					armv7,
+					armv7s,
+				);
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TTImageKitExample/TTImageKitExample-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(QCANLIB)/include/",
+				);
 				INFOPLIST_FILE = "TTImageKitExample/TTImageKitExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/liang/Develop/vuforia-sdk-ios-3-0-9/build/lib/arm",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				QCANLIB = "/Users/liang/Develop/vuforia-sdk-ios-3-0-9/build";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s arm64";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -421,12 +480,29 @@
 		EC3A0C4318A7682400F321E8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = (
+					armv7,
+					armv7s,
+				);
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TTImageKitExample/TTImageKitExample-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(QCANLIB)/include/",
+				);
 				INFOPLIST_FILE = "TTImageKitExample/TTImageKitExample-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/liang/Develop/vuforia-sdk-ios-3-0-9/build/lib/arm",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				QCANLIB = "/Users/liang/Develop/vuforia-sdk-ios-3-0-9/build";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "armv7 armv7s arm64";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -492,6 +568,7 @@
 				EC3A0C4318A7682400F321E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EC3A0C4418A7682400F321E8 /* Build configuration list for PBXNativeTarget "TTImageKitExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -500,6 +577,7 @@
 				EC3A0C4618A7682400F321E8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
