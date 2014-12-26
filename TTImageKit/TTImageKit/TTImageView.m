@@ -12,8 +12,6 @@
 
 @implementation TTImageView
 
-@synthesize size = _size;
-
 - (void)setImageData:(NSData *)data {
     CGImageSourceRef cImageSource = CGImageSourceCreateWithData((__bridge CFDataRef)data, NULL);
     if (cImageSource) {
@@ -48,11 +46,8 @@
 
 - (void)parseImage:(CGImageSourceRef)cImageSource {
     CGImageRef cImage = CGImageSourceCreateImageAtIndex(cImageSource, 0, NULL);
-    UIImage *image = [UIImage imageWithCGImage:cImage];
-    UIImageView *imageView = [[UIImageView alloc] initWithImage:image];
-    imageView.frame = self.frame;
-    [self addSubview:imageView];
-    _size = image.size;
+    self.image = [UIImage imageWithCGImage:cImage];
+    _size = self.image.size;
 }
 
 - (void)parseGIFImage:(CGImageSourceRef)cImageSource {

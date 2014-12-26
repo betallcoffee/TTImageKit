@@ -22,7 +22,8 @@
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-    NSString *imagePath = [[NSBundle mainBundle] pathForResource:@"test" ofType:@"gif"];
+//    NSString *imagePath = [[NSBundle mainBundle] pathForResource:@"test" ofType:@"gif"];
+    NSString *imagePath = [[NSBundle mainBundle] pathForResource:@"card1" ofType:@"jpg"];
     NSURL *imageURL = [NSURL fileURLWithPath:imagePath];
     TTImageView *imageView = [[TTImageView alloc] initWithFrame:self.view.frame];
     [imageView setBackgroundColor:[UIColor whiteColor]];

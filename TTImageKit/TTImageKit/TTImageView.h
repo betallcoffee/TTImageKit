@@ -8,7 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface TTImageView : UIView
+@interface TTImageView : UIImageView
 
 @property (nonatomic, readonly) CGSize size;
 

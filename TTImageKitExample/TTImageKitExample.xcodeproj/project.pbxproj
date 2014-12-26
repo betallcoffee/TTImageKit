@@ -31,6 +31,7 @@
 		EC9783701A49690F000848C5 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC97836F1A49690F000848C5 /* CoreMedia.framework */; };
 		EC9783771A498937000848C5 /* TrackersData.dat in Resources */ = {isa = PBXBuildFile; fileRef = EC9783751A498937000848C5 /* TrackersData.dat */; };
 		EC9783781A498937000848C5 /* TrackersData.xml in Resources */ = {isa = PBXBuildFile; fileRef = EC9783761A498937000848C5 /* TrackersData.xml */; };
+		ECC1F6081A4D504F000BA98F /* card1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ECC1F6071A4D504F000BA98F /* card1.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		EC97836F1A49690F000848C5 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		EC9783751A498937000848C5 /* TrackersData.dat */ = {isa = PBXFileReference; lastKnownFileType = file; path = TrackersData.dat; sourceTree = "<group>"; };
 		EC9783761A498937000848C5 /* TrackersData.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = TrackersData.xml; sourceTree = "<group>"; };
+		ECC1F6071A4D504F000BA98F /* card1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = card1.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -191,6 +193,7 @@
 		EC3A0C4C18A78B5000F321E8 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				ECC1F6071A4D504F000BA98F /* card1.jpg */,
 				EC9783751A498937000848C5 /* TrackersData.dat */,
 				EC9783761A498937000848C5 /* TrackersData.xml */,
 				EC3A0C4D18A78B5000F321E8 /* test.gif */,
@@ -275,6 +278,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC9783771A498937000848C5 /* TrackersData.dat in Resources */,
+				ECC1F6081A4D504F000BA98F /* card1.jpg in Resources */,
 				EC3A0C2B18A7682400F321E8 /* Images.xcassets in Resources */,
 				EC3A0C4E18A78B5000F321E8 /* test.gif in Resources */,
 				EC3A0C1A18A7682300F321E8 /* InfoPlist.strings in Resources */,
