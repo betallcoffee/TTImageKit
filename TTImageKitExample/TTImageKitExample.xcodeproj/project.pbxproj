@@ -20,13 +20,10 @@
 		EC3A0C3418A7682400F321E8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC3A0C1318A7682300F321E8 /* UIKit.framework */; };
 		EC3A0C3C18A7682400F321E8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC3A0C3A18A7682400F321E8 /* InfoPlist.strings */; };
 		EC3A0C3E18A7682400F321E8 /* TTImageKitExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3A0C3D18A7682400F321E8 /* TTImageKitExampleTests.m */; };
-		EC3A0C4B18A76D1E00F321E8 /* TTImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC3A0C4A18A76D1E00F321E8 /* TTImageView.m */; };
 		EC3A0C4E18A78B5000F321E8 /* test.gif in Resources */ = {isa = PBXBuildFile; fileRef = EC3A0C4D18A78B5000F321E8 /* test.gif */; };
 		EC3A0C5018A78BC900F321E8 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC3A0C4F18A78BC900F321E8 /* ImageIO.framework */; };
 		EC3A0C5218A7AE7500F321E8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC3A0C5118A7AE7500F321E8 /* QuartzCore.framework */; };
-		EC9783381A491CF3000848C5 /* TTQCARCameraEAGLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = EC9783371A491CF3000848C5 /* TTQCARCameraEAGLView.mm */; };
-		EC9783581A4940AF000848C5 /* TTQCARSession.mm in Sources */ = {isa = PBXBuildFile; fileRef = EC9783571A4940AF000848C5 /* TTQCARSession.mm */; };
-		EC97835B1A49529C000848C5 /* TTQCARCameraViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = EC97835A1A49529C000848C5 /* TTQCARCameraViewController.mm */; };
+		EC42E32F1A4D44B00045AADC /* libTTImageKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC42E32E1A4D44B00045AADC /* libTTImageKit.a */; };
 		EC97835D1A49670B000848C5 /* libVuforia.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC97835C1A49670B000848C5 /* libVuforia.a */; };
 		EC97835F1A496840000848C5 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC97835E1A496840000848C5 /* CoreMotion.framework */; };
 		EC9783611A496849000848C5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC9783601A496849000848C5 /* AVFoundation.framework */; };
@@ -66,17 +63,10 @@
 		EC3A0C3918A7682400F321E8 /* TTImageKitExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TTImageKitExampleTests-Info.plist"; sourceTree = "<group>"; };
 		EC3A0C3B18A7682400F321E8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		EC3A0C3D18A7682400F321E8 /* TTImageKitExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TTImageKitExampleTests.m; sourceTree = "<group>"; };
-		EC3A0C4918A76D1E00F321E8 /* TTImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTImageView.h; path = ../TTImageKit/TTImageView.h; sourceTree = "<group>"; };
-		EC3A0C4A18A76D1E00F321E8 /* TTImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TTImageView.m; path = ../TTImageKit/TTImageView.m; sourceTree = "<group>"; };
 		EC3A0C4D18A78B5000F321E8 /* test.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = test.gif; sourceTree = "<group>"; };
 		EC3A0C4F18A78BC900F321E8 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		EC3A0C5118A7AE7500F321E8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		EC9783361A491CF3000848C5 /* TTQCARCameraEAGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTQCARCameraEAGLView.h; path = ../TTImageKit/TTQCARCameraEAGLView.h; sourceTree = "<group>"; };
-		EC9783371A491CF3000848C5 /* TTQCARCameraEAGLView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = TTQCARCameraEAGLView.mm; path = ../TTImageKit/TTQCARCameraEAGLView.mm; sourceTree = "<group>"; };
-		EC9783561A4940AF000848C5 /* TTQCARSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTQCARSession.h; path = ../TTImageKit/TTQCARSession.h; sourceTree = "<group>"; };
-		EC9783571A4940AF000848C5 /* TTQCARSession.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = TTQCARSession.mm; path = ../TTImageKit/TTQCARSession.mm; sourceTree = "<group>"; };
-		EC9783591A49529C000848C5 /* TTQCARCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TTQCARCameraViewController.h; path = ../TTImageKit/TTQCARCameraViewController.h; sourceTree = "<group>"; };
-		EC97835A1A49529C000848C5 /* TTQCARCameraViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = TTQCARCameraViewController.mm; path = ../TTImageKit/TTQCARCameraViewController.mm; sourceTree = "<group>"; };
+		EC42E32E1A4D44B00045AADC /* libTTImageKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libTTImageKit.a; path = "../../../../../Library/Developer/Xcode/DerivedData/TTImageKit-ejrsaewrtrsygyaxamobvwlinhly/Build/Products/Debug-iphoneos/libTTImageKit.a"; sourceTree = "<group>"; };
 		EC97835C1A49670B000848C5 /* libVuforia.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libVuforia.a; path = ../QCAR/lib/arm/libVuforia.a; sourceTree = "<group>"; };
 		EC97835E1A496840000848C5 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		EC9783601A496849000848C5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -92,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC42E32F1A4D44B00045AADC /* libTTImageKit.a in Frameworks */,
 				EC9783701A49690F000848C5 /* CoreMedia.framework in Frameworks */,
 				EC97836E1A4968EE000848C5 /* libstdc++.6.dylib in Frameworks */,
 				EC97836A1A4968B3000848C5 /* SystemConfiguration.framework in Frameworks */,
@@ -122,7 +113,6 @@
 		EC3A0C0318A7682300F321E8 = {
 			isa = PBXGroup;
 			children = (
-				EC3A0C4818A769BE00F321E8 /* TTImageKit */,
 				EC3A0C1518A7682300F321E8 /* TTImageKitExample */,
 				EC3A0C3718A7682400F321E8 /* TTImageKitExampleTests */,
 				EC3A0C0E18A7682300F321E8 /* Frameworks */,
@@ -142,6 +132,7 @@
 		EC3A0C0E18A7682300F321E8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EC42E32E1A4D44B00045AADC /* libTTImageKit.a */,
 				EC97836F1A49690F000848C5 /* CoreMedia.framework */,
 				EC97836D1A4968EE000848C5 /* libstdc++.6.dylib */,
 				EC9783621A49686D000848C5 /* SystemConfiguration.framework */,
@@ -199,21 +190,6 @@
 				EC3A0C3A18A7682400F321E8 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		EC3A0C4818A769BE00F321E8 /* TTImageKit */ = {
-			isa = PBXGroup;
-			children = (
-				EC3A0C4918A76D1E00F321E8 /* TTImageView.h */,
-				EC3A0C4A18A76D1E00F321E8 /* TTImageView.m */,
-				EC9783361A491CF3000848C5 /* TTQCARCameraEAGLView.h */,
-				EC9783371A491CF3000848C5 /* TTQCARCameraEAGLView.mm */,
-				EC9783561A4940AF000848C5 /* TTQCARSession.h */,
-				EC9783571A4940AF000848C5 /* TTQCARSession.mm */,
-				EC9783591A49529C000848C5 /* TTQCARCameraViewController.h */,
-				EC97835A1A49529C000848C5 /* TTQCARCameraViewController.mm */,
-			);
-			name = TTImageKit;
 			sourceTree = "<group>";
 		};
 		EC3A0C4C18A78B5000F321E8 /* Resources */ = {
@@ -327,11 +303,7 @@
 			files = (
 				EC3A0C2918A7682300F321E8 /* ViewController.mm in Sources */,
 				EC3A0C2018A7682300F321E8 /* AppDelegate.m in Sources */,
-				EC9783381A491CF3000848C5 /* TTQCARCameraEAGLView.mm in Sources */,
-				EC97835B1A49529C000848C5 /* TTQCARCameraViewController.mm in Sources */,
-				EC9783581A4940AF000848C5 /* TTQCARSession.mm in Sources */,
 				EC3A0C1C18A7682300F321E8 /* main.m in Sources */,
-				EC3A0C4B18A76D1E00F321E8 /* TTImageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,13 +433,15 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"$(QCARLIB)/include/",
+					../TTImageKit/TTImageKit,
+					"${QCARLIB}/include",
 				);
 				INFOPLIST_FILE = "TTImageKitExample/TTImageKitExample-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"${QCARLIB}/lib/arm",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/TTImageKit-ejrsaewrtrsygyaxamobvwlinhly/Build/Products/Debug-iphoneos",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				QCARLIB = ../QCAR;
@@ -491,13 +465,15 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"$(QCARLIB)/include/",
+					../TTImageKit/TTImageKit,
+					"${QCARLIB}/include",
 				);
 				INFOPLIST_FILE = "TTImageKitExample/TTImageKitExample-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"${QCARLIB}/lib/arm",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/TTImageKit-ejrsaewrtrsygyaxamobvwlinhly/Build/Products/Debug-iphoneos",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				QCARLIB = ../QCAR;
