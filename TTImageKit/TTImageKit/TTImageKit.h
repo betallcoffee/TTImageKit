@@ -6,8 +6,4 @@
 //  Copyright (c) 2014 liangliang. All rights reserved.
 //
 
-
-#ifdef __OBJC__
-#import <UIKit/UIKit.h>
-#import <Foundation/Foundation.h>
-#endif
+#import "TTImageView.h"

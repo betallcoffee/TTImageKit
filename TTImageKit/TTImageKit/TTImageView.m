@@ -17,7 +17,7 @@
 - (void)setImageData:(NSData *)data {
     CGImageSourceRef cImageSource = CGImageSourceCreateWithData((__bridge CFDataRef)data, NULL);
     if (cImageSource) {
-        NSLog(@"UTI: %@", CGImageSourceGetType(cImageSource));
+        TTImageKitLogV(@"UTI: %@", CGImageSourceGetType(cImageSource));
         NSString *UTI = (__bridge_transfer NSString *)CGImageSourceGetType(cImageSource);
         if ([UTI compare:@"com.compuserve.gif"] == NSOrderedSame) {
             [self parseGIFImage:cImageSource];
@@ -30,17 +30,19 @@
 }
 
 - (void)setImageURL:(NSURL *)url {
-    CGImageSourceRef cImageSource = CGImageSourceCreateWithURL((__bridge CFURLRef)url, NULL);
-    if (cImageSource) {
-        NSLog(@"UTI: %@", CGImageSourceGetType(cImageSource));
-        NSString *UTI = (__bridge_transfer NSString *)CGImageSourceGetType(cImageSource);
-        if ([UTI compare:@"com.compuserve.gif"] == NSOrderedSame) {
-            [self parseGIFImage:cImageSource];
-        } else {
-            [self parseImage:cImageSource];
+    if ([url.scheme compare:@"file"] == NSOrderedSame) {
+        CGImageSourceRef cImageSource = CGImageSourceCreateWithURL((__bridge CFURLRef)url, NULL);
+        if (cImageSource) {
+            TTImageKitLogV(@"UTI: %@", CGImageSourceGetType(cImageSource));
+            NSString *UTI = (__bridge_transfer NSString *)CGImageSourceGetType(cImageSource);
+            if ([UTI compare:@"com.compuserve.gif"] == NSOrderedSame) {
+                [self parseGIFImage:cImageSource];
+            } else {
+                [self parseImage:cImageSource];
+            }
+            
+            CFRelease(cImageSource);
         }
-        
-       CFRelease(cImageSource);
     }
 }
 

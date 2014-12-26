@@ -60,6 +60,8 @@
 		EC42E3291A4D42E80045AADC /* libstdc++.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.dylib"; path = "usr/lib/libstdc++.6.dylib"; sourceTree = SDKROOT; };
 		EC42E32B1A4D42FC0045AADC /* libVuforia.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libVuforia.a; path = ../QCAR/lib/arm/libVuforia.a; sourceTree = "<group>"; };
 		EC42E32D1A4D43640045AADC /* TTImageKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTImageKit.h; sourceTree = "<group>"; };
+		ECC1F6051A4D4D35000BA98F /* TTImageLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTImageLog.h; sourceTree = "<group>"; };
+		ECC1F6061A4D4DA7000BA98F /* TTImageKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TTImageKit-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -133,6 +135,8 @@
 				EC42E30D1A4D115C0045AADC /* TTImageView.h */,
 				EC42E30E1A4D115C0045AADC /* TTImageView.m */,
 				EC42E32D1A4D43640045AADC /* TTImageKit.h */,
+				ECC1F6051A4D4D35000BA98F /* TTImageLog.h */,
+				ECC1F6061A4D4DA7000BA98F /* TTImageKit-Prefix.pch */,
 			);
 			path = TTImageKit;
 			sourceTree = "<group>";
@@ -312,7 +316,7 @@
 			buildSettings = {
 				DSTROOT = /tmp/TTImageKit.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = TTImageKit/TTImageKit.h;
+				GCC_PREFIX_HEADER = "TTImageKit/TTImageKit-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
@@ -329,7 +333,7 @@
 			buildSettings = {
 				DSTROOT = /tmp/TTImageKit.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = TTImageKit/TTImageKit.h;
+				GCC_PREFIX_HEADER = "TTImageKit/TTImageKit-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
