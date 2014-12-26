@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC42E33D1A4D49210045AADC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC42E33C1A4D49210045AADC /* Foundation.framework */; };
+		EC42E34B1A4D49210045AADC /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC42E34A1A4D49210045AADC /* XCTest.framework */; };
+		EC42E34C1A4D49210045AADC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC42E33C1A4D49210045AADC /* Foundation.framework */; };
+		EC42E34E1A4D49210045AADC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC42E34D1A4D49210045AADC /* UIKit.framework */; };
+		EC42E3511A4D49210045AADC /* libTTQCARCamera.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC42E3391A4D49210045AADC /* libTTQCARCamera.a */; };
+		EC42E3681A4D497B0045AADC /* TTQCARCameraEAGLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = EC42E3631A4D497B0045AADC /* TTQCARCameraEAGLView.mm */; };
+		EC42E3691A4D497B0045AADC /* TTQCARCameraViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = EC42E3651A4D497B0045AADC /* TTQCARCameraViewController.mm */; };
+		EC42E36A1A4D497B0045AADC /* TTQcarSession.mm in Sources */ = {isa = PBXBuildFile; fileRef = EC42E3671A4D497B0045AADC /* TTQcarSession.mm */; };
+		EC42E36C1A4D49990045AADC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC42E36B1A4D49990045AADC /* UIKit.framework */; };
+		EC42E36E1A4D49A10045AADC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC42E36D1A4D49A10045AADC /* CoreGraphics.framework */; };
+		EC42E3701A4D49AA0045AADC /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC42E36F1A4D49AA0045AADC /* ImageIO.framework */; };
+		EC42E3721A4D49B40045AADC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC42E3711A4D49B40045AADC /* QuartzCore.framework */; };
+		EC42E3741A4D49BB0045AADC /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC42E3731A4D49BB0045AADC /* CoreMotion.framework */; };
+		EC42E3761A4D49C10045AADC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC42E3751A4D49C10045AADC /* AVFoundation.framework */; };
+		EC42E3781A4D49C80045AADC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC42E3771A4D49C80045AADC /* SystemConfiguration.framework */; };
+		EC42E37A1A4D49CE0045AADC /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC42E3791A4D49CE0045AADC /* CoreMedia.framework */; };
+		EC42E37C1A4D49D70045AADC /* libstdc++.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EC42E37B1A4D49D70045AADC /* libstdc++.6.dylib */; };
+		EC42E37E1A4D49E40045AADC /* libVuforia.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC42E37D1A4D49E40045AADC /* libVuforia.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC42E34F1A4D49210045AADC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC42E3311A4D49210045AADC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC42E3381A4D49210045AADC;
+			remoteInfo = TTQCARCamera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		EC42E3371A4D49210045AADC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		EC42E3391A4D49210045AADC /* libTTQCARCamera.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libTTQCARCamera.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC42E33C1A4D49210045AADC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		EC42E3401A4D49210045AADC /* TTQCARCamera-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TTQCARCamera-Prefix.pch"; sourceTree = "<group>"; };
+		EC42E3491A4D49210045AADC /* TTQCARCameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TTQCARCameraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC42E34A1A4D49210045AADC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		EC42E34D1A4D49210045AADC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		EC42E3621A4D497B0045AADC /* TTQCARCameraEAGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTQCARCameraEAGLView.h; sourceTree = "<group>"; };
+		EC42E3631A4D497B0045AADC /* TTQCARCameraEAGLView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TTQCARCameraEAGLView.mm; sourceTree = "<group>"; };
+		EC42E3641A4D497B0045AADC /* TTQCARCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTQCARCameraViewController.h; sourceTree = "<group>"; };
+		EC42E3651A4D497B0045AADC /* TTQCARCameraViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TTQCARCameraViewController.mm; sourceTree = "<group>"; };
+		EC42E3661A4D497B0045AADC /* TTQcarSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTQcarSession.h; sourceTree = "<group>"; };
+		EC42E3671A4D497B0045AADC /* TTQcarSession.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TTQcarSession.mm; sourceTree = "<group>"; };
+		EC42E36B1A4D49990045AADC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EC42E36D1A4D49A10045AADC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EC42E36F1A4D49AA0045AADC /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		EC42E3711A4D49B40045AADC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EC42E3731A4D49BB0045AADC /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		EC42E3751A4D49C10045AADC /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		EC42E3771A4D49C80045AADC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		EC42E3791A4D49CE0045AADC /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		EC42E37B1A4D49D70045AADC /* libstdc++.6.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.dylib"; path = "usr/lib/libstdc++.6.dylib"; sourceTree = SDKROOT; };
+		EC42E37D1A4D49E40045AADC /* libVuforia.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libVuforia.a; path = ../QCAR/lib/arm/libVuforia.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC42E3361A4D49210045AADC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC42E37E1A4D49E40045AADC /* libVuforia.a in Frameworks */,
+				EC42E37C1A4D49D70045AADC /* libstdc++.6.dylib in Frameworks */,
+				EC42E37A1A4D49CE0045AADC /* CoreMedia.framework in Frameworks */,
+				EC42E3781A4D49C80045AADC /* SystemConfiguration.framework in Frameworks */,
+				EC42E3761A4D49C10045AADC /* AVFoundation.framework in Frameworks */,
+				EC42E3741A4D49BB0045AADC /* CoreMotion.framework in Frameworks */,
+				EC42E3721A4D49B40045AADC /* QuartzCore.framework in Frameworks */,
+				EC42E3701A4D49AA0045AADC /* ImageIO.framework in Frameworks */,
+				EC42E36E1A4D49A10045AADC /* CoreGraphics.framework in Frameworks */,
+				EC42E36C1A4D49990045AADC /* UIKit.framework in Frameworks */,
+				EC42E33D1A4D49210045AADC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC42E3461A4D49210045AADC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC42E34B1A4D49210045AADC /* XCTest.framework in Frameworks */,
+				EC42E34E1A4D49210045AADC /* UIKit.framework in Frameworks */,
+				EC42E34C1A4D49210045AADC /* Foundation.framework in Frameworks */,
+				EC42E3511A4D49210045AADC /* libTTQCARCamera.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC42E3301A4D49210045AADC = {
+			isa = PBXGroup;
+			children = (
+				EC42E33E1A4D49210045AADC /* TTQCARCamera */,
+				EC42E33B1A4D49210045AADC /* Frameworks */,
+				EC42E33A1A4D49210045AADC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC42E33A1A4D49210045AADC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC42E3391A4D49210045AADC /* libTTQCARCamera.a */,
+				EC42E3491A4D49210045AADC /* TTQCARCameraTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC42E33B1A4D49210045AADC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC42E37D1A4D49E40045AADC /* libVuforia.a */,
+				EC42E37B1A4D49D70045AADC /* libstdc++.6.dylib */,
+				EC42E3791A4D49CE0045AADC /* CoreMedia.framework */,
+				EC42E3771A4D49C80045AADC /* SystemConfiguration.framework */,
+				EC42E3751A4D49C10045AADC /* AVFoundation.framework */,
+				EC42E3731A4D49BB0045AADC /* CoreMotion.framework */,
+				EC42E3711A4D49B40045AADC /* QuartzCore.framework */,
+				EC42E36F1A4D49AA0045AADC /* ImageIO.framework */,
+				EC42E36D1A4D49A10045AADC /* CoreGraphics.framework */,
+				EC42E36B1A4D49990045AADC /* UIKit.framework */,
+				EC42E33C1A4D49210045AADC /* Foundation.framework */,
+				EC42E34A1A4D49210045AADC /* XCTest.framework */,
+				EC42E34D1A4D49210045AADC /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC42E33E1A4D49210045AADC /* TTQCARCamera */ = {
+			isa = PBXGroup;
+			children = (
+				EC42E3621A4D497B0045AADC /* TTQCARCameraEAGLView.h */,
+				EC42E3631A4D497B0045AADC /* TTQCARCameraEAGLView.mm */,
+				EC42E3641A4D497B0045AADC /* TTQCARCameraViewController.h */,
+				EC42E3651A4D497B0045AADC /* TTQCARCameraViewController.mm */,
+				EC42E3661A4D497B0045AADC /* TTQcarSession.h */,
+				EC42E3671A4D497B0045AADC /* TTQcarSession.mm */,
+				EC42E33F1A4D49210045AADC /* Supporting Files */,
+			);
+			path = TTQCARCamera;
+			sourceTree = "<group>";
+		};
+		EC42E33F1A4D49210045AADC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC42E3401A4D49210045AADC /* TTQCARCamera-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC42E3381A4D49210045AADC /* TTQCARCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC42E35C1A4D49210045AADC /* Build configuration list for PBXNativeTarget "TTQCARCamera" */;
+			buildPhases = (
+				EC42E3351A4D49210045AADC /* Sources */,
+				EC42E3361A4D49210045AADC /* Frameworks */,
+				EC42E3371A4D49210045AADC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TTQCARCamera;
+			productName = TTQCARCamera;
+			productReference = EC42E3391A4D49210045AADC /* libTTQCARCamera.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		EC42E3481A4D49210045AADC /* TTQCARCameraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC42E35F1A4D49210045AADC /* Build configuration list for PBXNativeTarget "TTQCARCameraTests" */;
+			buildPhases = (
+				EC42E3451A4D49210045AADC /* Sources */,
+				EC42E3461A4D49210045AADC /* Frameworks */,
+				EC42E3471A4D49210045AADC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC42E3501A4D49210045AADC /* PBXTargetDependency */,
+			);
+			name = TTQCARCameraTests;
+			productName = TTQCARCameraTests;
+			productReference = EC42E3491A4D49210045AADC /* TTQCARCameraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC42E3311A4D49210045AADC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = liangliang;
+			};
+			buildConfigurationList = EC42E3341A4D49210045AADC /* Build configuration list for PBXProject "TTQCARCamera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = EC42E3301A4D49210045AADC;
+			productRefGroup = EC42E33A1A4D49210045AADC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC42E3381A4D49210045AADC /* TTQCARCamera */,
+				EC42E3481A4D49210045AADC /* TTQCARCameraTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC42E3471A4D49210045AADC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC42E3351A4D49210045AADC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC42E3691A4D497B0045AADC /* TTQCARCameraViewController.mm in Sources */,
+				EC42E36A1A4D497B0045AADC /* TTQcarSession.mm in Sources */,
+				EC42E3681A4D497B0045AADC /* TTQCARCameraEAGLView.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC42E3451A4D49210045AADC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC42E3501A4D49210045AADC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC42E3381A4D49210045AADC /* TTQCARCamera */;
+			targetProxy = EC42E34F1A4D49210045AADC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EC42E35A1A4D49210045AADC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		EC42E35B1A4D49210045AADC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC42E35D1A4D49210045AADC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/TTQCARCamera.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TTQCARCamera/TTQCARCamera-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"${QCARLIB}/include",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/liang/Workspace/projects/iOS/TTImageKit/QCAR/lib/arm,
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				QCARLIB = ../QCAR;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EC42E35E1A4D49210045AADC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/TTQCARCamera.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TTQCARCamera/TTQCARCamera-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"${QCARLIB}/include",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/liang/Workspace/projects/iOS/TTImageKit/QCAR/lib/arm,
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				QCARLIB = ../QCAR;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		EC42E3601A4D49210045AADC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TTQCARCamera/TTQCARCamera-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "TTQCARCameraTests/TTQCARCameraTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		EC42E3611A4D49210045AADC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TTQCARCamera/TTQCARCamera-Prefix.pch";
+				INFOPLIST_FILE = "TTQCARCameraTests/TTQCARCameraTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC42E3341A4D49210045AADC /* Build configuration list for PBXProject "TTQCARCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC42E35A1A4D49210045AADC /* Debug */,
+				EC42E35B1A4D49210045AADC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC42E35C1A4D49210045AADC /* Build configuration list for PBXNativeTarget "TTQCARCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC42E35D1A4D49210045AADC /* Debug */,
+				EC42E35E1A4D49210045AADC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EC42E35F1A4D49210045AADC /* Build configuration list for PBXNativeTarget "TTQCARCameraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC42E3601A4D49210045AADC /* Debug */,
+				EC42E3611A4D49210045AADC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC42E3311A4D49210045AADC /* Project object */;
+}

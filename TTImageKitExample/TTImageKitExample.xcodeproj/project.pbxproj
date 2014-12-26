@@ -24,7 +24,6 @@
 		EC3A0C5018A78BC900F321E8 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC3A0C4F18A78BC900F321E8 /* ImageIO.framework */; };
 		EC3A0C5218A7AE7500F321E8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC3A0C5118A7AE7500F321E8 /* QuartzCore.framework */; };
 		EC42E32F1A4D44B00045AADC /* libTTImageKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC42E32E1A4D44B00045AADC /* libTTImageKit.a */; };
-		EC97835D1A49670B000848C5 /* libVuforia.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC97835C1A49670B000848C5 /* libVuforia.a */; };
 		EC97835F1A496840000848C5 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC97835E1A496840000848C5 /* CoreMotion.framework */; };
 		EC9783611A496849000848C5 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC9783601A496849000848C5 /* AVFoundation.framework */; };
 		EC97836A1A4968B3000848C5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC9783621A49686D000848C5 /* SystemConfiguration.framework */; };
@@ -67,7 +66,6 @@
 		EC3A0C4F18A78BC900F321E8 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
 		EC3A0C5118A7AE7500F321E8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		EC42E32E1A4D44B00045AADC /* libTTImageKit.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libTTImageKit.a; path = "../../../../../Library/Developer/Xcode/DerivedData/TTImageKit-ejrsaewrtrsygyaxamobvwlinhly/Build/Products/Debug-iphoneos/libTTImageKit.a"; sourceTree = "<group>"; };
-		EC97835C1A49670B000848C5 /* libVuforia.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libVuforia.a; path = ../QCAR/lib/arm/libVuforia.a; sourceTree = "<group>"; };
 		EC97835E1A496840000848C5 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		EC9783601A496849000848C5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 		EC9783621A49686D000848C5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
@@ -88,7 +86,6 @@
 				EC97836A1A4968B3000848C5 /* SystemConfiguration.framework in Frameworks */,
 				EC9783611A496849000848C5 /* AVFoundation.framework in Frameworks */,
 				EC97835F1A496840000848C5 /* CoreMotion.framework in Frameworks */,
-				EC97835D1A49670B000848C5 /* libVuforia.a in Frameworks */,
 				EC3A0C5218A7AE7500F321E8 /* QuartzCore.framework in Frameworks */,
 				EC3A0C5018A78BC900F321E8 /* ImageIO.framework in Frameworks */,
 				EC3A0C1218A7682300F321E8 /* CoreGraphics.framework in Frameworks */,
@@ -138,7 +135,6 @@
 				EC9783621A49686D000848C5 /* SystemConfiguration.framework */,
 				EC9783601A496849000848C5 /* AVFoundation.framework */,
 				EC97835E1A496840000848C5 /* CoreMotion.framework */,
-				EC97835C1A49670B000848C5 /* libVuforia.a */,
 				EC3A0C5118A7AE7500F321E8 /* QuartzCore.framework */,
 				EC3A0C4F18A78BC900F321E8 /* ImageIO.framework */,
 				EC3A0C0F18A7682300F321E8 /* Foundation.framework */,

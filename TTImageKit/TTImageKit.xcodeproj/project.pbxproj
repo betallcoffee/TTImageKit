@@ -13,19 +13,10 @@
 		EC42E2F81A4D0E8C0045AADC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC42E2F71A4D0E8C0045AADC /* UIKit.framework */; };
 		EC42E2FB1A4D0E8C0045AADC /* libTTImageKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC42E2E31A4D0E8C0045AADC /* libTTImageKit.a */; };
 		EC42E3151A4D115C0045AADC /* TTImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = EC42E30E1A4D115C0045AADC /* TTImageView.m */; };
-		EC42E3161A4D115C0045AADC /* TTQCARCameraEAGLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = EC42E3101A4D115C0045AADC /* TTQCARCameraEAGLView.mm */; };
-		EC42E3171A4D115C0045AADC /* TTQCARCameraViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = EC42E3121A4D115C0045AADC /* TTQCARCameraViewController.mm */; };
-		EC42E3181A4D115C0045AADC /* TTQcarSession.mm in Sources */ = {isa = PBXBuildFile; fileRef = EC42E3141A4D115C0045AADC /* TTQcarSession.mm */; };
 		EC42E31A1A4D42A60045AADC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC42E3191A4D42A60045AADC /* UIKit.framework */; };
 		EC42E31C1A4D42AF0045AADC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC42E31B1A4D42AF0045AADC /* CoreGraphics.framework */; };
 		EC42E31E1A4D42B70045AADC /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC42E31D1A4D42B70045AADC /* ImageIO.framework */; };
 		EC42E3201A4D42C00045AADC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC42E31F1A4D42C00045AADC /* QuartzCore.framework */; };
-		EC42E3221A4D42C70045AADC /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC42E3211A4D42C70045AADC /* CoreMotion.framework */; };
-		EC42E3241A4D42CE0045AADC /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC42E3231A4D42CE0045AADC /* AVFoundation.framework */; };
-		EC42E3261A4D42D80045AADC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC42E3251A4D42D80045AADC /* SystemConfiguration.framework */; };
-		EC42E3281A4D42DF0045AADC /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC42E3271A4D42DF0045AADC /* CoreMedia.framework */; };
-		EC42E32A1A4D42E80045AADC /* libstdc++.6.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = EC42E3291A4D42E80045AADC /* libstdc++.6.dylib */; };
-		EC42E32C1A4D42FC0045AADC /* libVuforia.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC42E32B1A4D42FC0045AADC /* libVuforia.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,12 +49,6 @@
 		EC42E2F71A4D0E8C0045AADC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		EC42E30D1A4D115C0045AADC /* TTImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTImageView.h; sourceTree = "<group>"; };
 		EC42E30E1A4D115C0045AADC /* TTImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TTImageView.m; sourceTree = "<group>"; };
-		EC42E30F1A4D115C0045AADC /* TTQCARCameraEAGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTQCARCameraEAGLView.h; sourceTree = "<group>"; };
-		EC42E3101A4D115C0045AADC /* TTQCARCameraEAGLView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TTQCARCameraEAGLView.mm; sourceTree = "<group>"; };
-		EC42E3111A4D115C0045AADC /* TTQCARCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTQCARCameraViewController.h; sourceTree = "<group>"; };
-		EC42E3121A4D115C0045AADC /* TTQCARCameraViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TTQCARCameraViewController.mm; sourceTree = "<group>"; };
-		EC42E3131A4D115C0045AADC /* TTQcarSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TTQcarSession.h; sourceTree = "<group>"; };
-		EC42E3141A4D115C0045AADC /* TTQcarSession.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TTQcarSession.mm; sourceTree = "<group>"; };
 		EC42E3191A4D42A60045AADC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		EC42E31B1A4D42AF0045AADC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		EC42E31D1A4D42B70045AADC /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
@@ -82,12 +67,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EC42E32C1A4D42FC0045AADC /* libVuforia.a in Frameworks */,
-				EC42E32A1A4D42E80045AADC /* libstdc++.6.dylib in Frameworks */,
-				EC42E3281A4D42DF0045AADC /* CoreMedia.framework in Frameworks */,
-				EC42E3261A4D42D80045AADC /* SystemConfiguration.framework in Frameworks */,
-				EC42E3241A4D42CE0045AADC /* AVFoundation.framework in Frameworks */,
-				EC42E3221A4D42C70045AADC /* CoreMotion.framework in Frameworks */,
 				EC42E3201A4D42C00045AADC /* QuartzCore.framework in Frameworks */,
 				EC42E31E1A4D42B70045AADC /* ImageIO.framework in Frameworks */,
 				EC42E31C1A4D42AF0045AADC /* CoreGraphics.framework in Frameworks */,
@@ -153,12 +132,6 @@
 			children = (
 				EC42E30D1A4D115C0045AADC /* TTImageView.h */,
 				EC42E30E1A4D115C0045AADC /* TTImageView.m */,
-				EC42E30F1A4D115C0045AADC /* TTQCARCameraEAGLView.h */,
-				EC42E3101A4D115C0045AADC /* TTQCARCameraEAGLView.mm */,
-				EC42E3111A4D115C0045AADC /* TTQCARCameraViewController.h */,
-				EC42E3121A4D115C0045AADC /* TTQCARCameraViewController.mm */,
-				EC42E3131A4D115C0045AADC /* TTQcarSession.h */,
-				EC42E3141A4D115C0045AADC /* TTQcarSession.mm */,
 				EC42E32D1A4D43640045AADC /* TTImageKit.h */,
 			);
 			path = TTImageKit;
@@ -245,9 +218,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				EC42E3151A4D115C0045AADC /* TTImageView.m in Sources */,
-				EC42E3171A4D115C0045AADC /* TTQCARCameraViewController.mm in Sources */,
-				EC42E3161A4D115C0045AADC /* TTQCARCameraEAGLView.mm in Sources */,
-				EC42E3181A4D115C0045AADC /* TTQcarSession.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,15 +316,10 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"${QCARLIB}/include",
 				);
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"${QCARLIB}/lib/arm",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				QCARLIB = ../QCAR;
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
@@ -368,15 +333,10 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
-					"${QCARLIB}/include",
 				);
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"${QCARLIB}/lib/arm",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				QCARLIB = ../QCAR;
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
