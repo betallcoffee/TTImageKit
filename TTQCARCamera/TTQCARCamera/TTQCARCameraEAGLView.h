@@ -9,7 +9,7 @@
 
 #import <QCAR/UIGLViewProtocol.h>
 #import "TTQCARCameraEAGLView.h"
-#import "TTQcarSession.h"
+#import "TTQCARSession.h"
 
 
 // EAGLView is a subclass of UIView and conforms to the informal protocol

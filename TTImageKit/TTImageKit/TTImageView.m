@@ -41,6 +41,8 @@
             
             CFRelease(cImageSource);
         }
+    } else if ([url.scheme compare:@"http"] == NSOrderedSame) {
+        [self sendHTTPRequest:url];
     }
 }
 
@@ -86,6 +88,10 @@
     animation.duration = totalTime;
     animation.repeatCount = HUGE_VALF;
     [self.layer addAnimation:animation forKey:@"gifAnimation"];
+}
+
+- (void)sendHTTPRequest:(NSURL *)url {
+    
 }
 
 @end
