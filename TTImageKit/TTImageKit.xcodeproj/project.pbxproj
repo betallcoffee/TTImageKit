@@ -15,6 +15,7 @@
 		EC42E31A1A4D42A60045AADC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC42E3191A4D42A60045AADC /* UIKit.framework */; };
 		EC42E31C1A4D42AF0045AADC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC42E31B1A4D42AF0045AADC /* CoreGraphics.framework */; };
 		EC42E31E1A4D42B70045AADC /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC42E31D1A4D42B70045AADC /* ImageIO.framework */; };
+		ECC1F6321A5144D1000BA98F /* libTTNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ECC1F62A1A51369B000BA98F /* libTTNetworking.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,6 +25,20 @@
 			proxyType = 1;
 			remoteGlobalIDString = EC42E2E21A4D0E8C0045AADC;
 			remoteInfo = TTImageKit;
+		};
+		ECC1F6291A51369B000BA98F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECC1F6241A51369B000BA98F /* TTNetworking.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EC42E26B1A4CFD940045AADC;
+			remoteInfo = TTNetworking;
+		};
+		ECC1F62B1A51369B000BA98F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = ECC1F6241A51369B000BA98F /* TTNetworking.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EC42E27B1A4CFD940045AADC;
+			remoteInfo = TTNetworkingTests;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -53,6 +68,7 @@
 		EC42E32D1A4D43640045AADC /* TTImageKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTImageKit.h; sourceTree = "<group>"; };
 		ECC1F6051A4D4D35000BA98F /* TTImageLog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TTImageLog.h; sourceTree = "<group>"; };
 		ECC1F6061A4D4DA7000BA98F /* TTImageKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TTImageKit-Prefix.pch"; sourceTree = "<group>"; };
+		ECC1F6241A51369B000BA98F /* TTNetworking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = TTNetworking.xcodeproj; path = ../../../TTNetworking/TTNetworking/TTNetworking.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECC1F6321A5144D1000BA98F /* libTTNetworking.a in Frameworks */,
 				EC42E31E1A4D42B70045AADC /* ImageIO.framework in Frameworks */,
 				EC42E31C1A4D42AF0045AADC /* CoreGraphics.framework in Frameworks */,
 				EC42E31A1A4D42A60045AADC /* UIKit.framework in Frameworks */,
@@ -114,6 +131,7 @@
 		EC42E30C1A4D115C0045AADC /* TTImageKit */ = {
 			isa = PBXGroup;
 			children = (
+				ECC1F6241A51369B000BA98F /* TTNetworking.xcodeproj */,
 				EC42E30D1A4D115C0045AADC /* TTImageView.h */,
 				EC42E30E1A4D115C0045AADC /* TTImageView.m */,
 				EC42E32D1A4D43640045AADC /* TTImageKit.h */,
@@ -121,6 +139,15 @@
 				ECC1F6061A4D4DA7000BA98F /* TTImageKit-Prefix.pch */,
 			);
 			path = TTImageKit;
+			sourceTree = "<group>";
+		};
+		ECC1F6251A51369B000BA98F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ECC1F62A1A51369B000BA98F /* libTTNetworking.a */,
+				ECC1F62C1A51369B000BA98F /* TTNetworkingTests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -180,6 +207,12 @@
 			mainGroup = EC42E2DA1A4D0E8C0045AADC;
 			productRefGroup = EC42E2E41A4D0E8C0045AADC /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = ECC1F6251A51369B000BA98F /* Products */;
+					ProjectRef = ECC1F6241A51369B000BA98F /* TTNetworking.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				EC42E2E21A4D0E8C0045AADC /* TTImageKit */,
@@ -187,6 +220,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		ECC1F62A1A51369B000BA98F /* libTTNetworking.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libTTNetworking.a;
+			remoteRef = ECC1F6291A51369B000BA98F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		ECC1F62C1A51369B000BA98F /* TTNetworkingTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = TTNetworkingTests.xctest;
+			remoteRef = ECC1F62B1A51369B000BA98F /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		EC42E2F11A4D0E8C0045AADC /* Resources */ = {
@@ -302,6 +352,7 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					../../TTNetworking/TTNetworking/TTNetworking,
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
@@ -319,6 +370,7 @@
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					../../TTNetworking/TTNetworking/TTNetworking,
 				);
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";

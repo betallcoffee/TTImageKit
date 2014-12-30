@@ -8,6 +8,7 @@
 
 #import <ImageIO/ImageIO.h>
 #import <QuartzCore/QuartzCore.h>
+#import "TTNetworking.h"
 #import "TTImageView.h"
 
 @implementation TTImageView
@@ -41,7 +42,7 @@
             
             CFRelease(cImageSource);
         }
-    } else if ([url.scheme compare:@"http"] == NSOrderedSame) {
+    } else if ([url.scheme compare:@"http"] == NSOrderedSame || [url.scheme compare:@"https"] == NSOrderedSame) {
         [self sendHTTPRequest:url];
     }
 }
@@ -49,7 +50,7 @@
 - (void)parseImage:(CGImageSourceRef)cImageSource {
     CGImageRef cImage = CGImageSourceCreateImageAtIndex(cImageSource, 0, NULL);
     self.image = [UIImage imageWithCGImage:cImage];
-    _size = self.image.size;
+    _imageSize = self.image.size;
 }
 
 - (void)parseGIFImage:(CGImageSourceRef)cImageSource {
@@ -70,8 +71,8 @@
         [times addObject:gifDelayTime];
         totalTime += [gifDelayTime floatValue];
         
-        _size.width = [[properties valueForKey:(NSString*)kCGImagePropertyPixelWidth] floatValue];
-        _size.height = [[properties valueForKey:(NSString*)kCGImagePropertyPixelHeight] floatValue];
+        _imageSize.width = [[properties valueForKey:(NSString*)kCGImagePropertyPixelWidth] floatValue];
+        _imageSize.height = [[properties valueForKey:(NSString*)kCGImagePropertyPixelHeight] floatValue];
     }
     
     float currentTime = 0;
@@ -91,7 +92,15 @@
 }
 
 - (void)sendHTTPRequest:(NSURL *)url {
-    
+    TTImageKitLogV(@"url %@", url.absoluteString);
+    [[TTHTTPClient sharedInstanced] GET:url.absoluteString parameters:nil completion:^(TTHTTPRequest *request, NSError *error, BOOL isSuccess) {
+        if (isSuccess) {
+            TTImageKitLogV(@"GET %@ success", request.request.URL);
+            [self setImageData:request.responseObject];
+        } else {
+            TTImageKitLogE(@"GET %@ error %@", request.request.URL, error);
+        }
+    }];
 }
 
 @end

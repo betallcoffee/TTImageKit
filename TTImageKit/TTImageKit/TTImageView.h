@@ -10,7 +10,7 @@
 
 @interface TTImageView : UIImageView
 
-@property (nonatomic, readonly) CGSize size;
+@property (nonatomic, readonly) CGSize imageSize;
 
 - (void)setImageData:(NSData *)data;
 - (void)setImageURL:(NSURL *)url;
